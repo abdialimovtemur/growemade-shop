@@ -1,0 +1,62 @@
+// grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+.footer{
+    padding: 120px 0px;
+    display: grid;
+    gap: 130px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    &__left{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+        &__top__list{
+            display: grid;
+            gap: 10px;
+            font-size: 19px;
+            font-weight: 600;
+        }
+
+        &__bottom{
+            &__title{
+
+            }
+
+            &__discription{
+                color: rgb(137, 103, 103);
+                padding: 23px 0px 55px;
+                border-bottom: 2px solid black;
+            }
+        }
+    }
+
+    &__right{
+        display: grid;
+        gap: 120px;
+        justify-content: end;
+
+        &__bottom__list{
+            display: flex;
+            gap: 20px;
+            padding: 60px 0px 10px;
+            
+            a{
+                color: rgb(137, 103, 103);
+            }
+        }
+
+        &__top{
+            display: flex;
+            justify-content: end;
+            
+            
+            &__box{
+                background-color: black;
+                color: white;
+                align-items: center;
+                padding: 10px 20px;
+                text-align: center;
+                width: 80px;
+            }
+        }
+    }
+}

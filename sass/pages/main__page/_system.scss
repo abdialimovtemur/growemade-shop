@@ -1,0 +1,32 @@
+.grovemade__system{
+    background-image: url(../../../img/system.svg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    align-items: center;
+    justify-content: center;
+    padding: 170px 0px 150px 0px;
+    color: white;
+
+
+    &__info{
+        color: white;
+        display: grid;
+        text-align: center;
+
+        &__title{
+            color: white;
+            font-size: 75px;
+            font-weight: 300;
+        }
+
+        &__discription{
+            color: white;
+            font-size: 20px;
+            padding: 22px 0px;
+            
+        }
+    }
+}

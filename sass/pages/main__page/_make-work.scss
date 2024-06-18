@@ -1,0 +1,35 @@
+.make-work{
+    display: grid;
+    padding: 120px 0px;
+
+    &__info{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        &__title{
+            font-size: 35px;
+        }
+
+        &__discription{
+            font-size: 20px;
+            color: #A0A0A0;
+            padding: 20px 0px 50px;
+        }
+    }
+
+    &__img{
+        gap: 10px;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+        width: 100%;
+        align-items: center;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+        img{
+            width: 100%;
+        }
+    }
+}
